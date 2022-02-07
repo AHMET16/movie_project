@@ -7,10 +7,10 @@ This project represents a preliminary study of the entry into the microsoft film
 ### Business Problem
 Microsoft is the world leader in its field, but the film industry is also very new in terms of know-how, the company should decide how much budget it has outside of this project and decide on the film it will shoot. The results of the data and analyzes I have collected show the following. Genre and runtime data of the directors have determined the genre that provides the least risk for companies that have just started in the film industry.
 
-###Data Understanding
+### Data Understanding
 ## Questions to consider:
 
-##Question Where did the data come from, and how do they relate to the data analysis questions?
+## Question Where did the data come from, and how do they relate to the data analysis questions?
 The data is provided by Flatiron school and collected from the respective websites.
 
 The data is collected from Box Office Mojo, IMDB, Rotten Tomatoes, and TheMovieDB.org. The data has information about movie titles, genres, directors, actors, profits, release year.
