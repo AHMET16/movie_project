@@ -11,6 +11,7 @@ Microsoft is the world leader in its field, but the film industry is also very n
 ## Questions to consider:
 
 ### Question Where did the data come from, and how do they relate to the data analysis questions?
+
 The data is provided by Flatiron school and collected from the respective websites.
 
 The data is collected from Box Office Mojo, IMDB, Rotten Tomatoes, and TheMovieDB.org. The data has information about movie titles, genres, directors, actors, profits, release year.
@@ -19,7 +20,9 @@ The data is collected from Box Office Mojo, IMDB, Rotten Tomatoes, and TheMovieD
 ### Methods
 ### Data Preparation
 ## Questions to consider:
+
 - How did you prepare the data ?
+
 Here are the datasets that I used for analysis:
 
 imdb datasets: imdb_title_basics, imdb_title_crew, imdb_title_principals, imdb_title_ratings, imdb_name_basics
@@ -44,11 +47,16 @@ I dropped the following columns from the data:
 - How did you address missing values or outliers?
 
   I dropped rows with missing worldwide_gross or production_cost values.
+
 - Why are these choices appropriate given the data and the business problem?
-   Dropping the nan values, rather than replacing them is an appropriate choice, since I want to provide accurate information.
+
+  Dropping the nan values, rather than replacing them is an appropriate choice, since I want to provide        accurate information.
    
 - Why are these choices appropriate given the data and the business problem?
-    Dropping the nan values, rather than replacing them is an appropriate choice, since I want to provide accurate information.
+   
+   Dropping the nan values, rather than replacing them is an appropriate choice, since I want to provide accurate information.
+
+
 - Were there variables you dropped?
 
    I later dropped studio, year, domestic_gross, foreign_gross, worldwide_gross columns, since they are not necessary for further analysis.
