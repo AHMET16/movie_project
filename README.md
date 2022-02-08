@@ -61,5 +61,206 @@ I dropped the following columns from the data:
 
    I later dropped studio, year, domestic_gross, foreign_gross, worldwide_gross columns, since they are not necessary for further analysis.
 
+ #### Evaluation
+Questions to consider:
+
+- How do you interpret the results?
+
+ We have some general knowledge about how to make a profitable and popular movie in terms of genres and directors, writers and actors. I think this is a good first step in analysis.
+
+- How confident are you that your results would generalize beyond the data you have?
+
+
+  I think these results would generalize beyond this data because there are 16184 movies, which is a quite large number.
+  
+- How confident are you that this model would benefit the business if put into use?
  
+  I think this analysis will be helpful in choosing genres and people to work with.
+  
+  
+#### Conclusions
+
+## Questions to consider:
+
+- What would you recommend the business do as a result of this work?
+  
+  
+    In terms of best movie genres for the highest profit, here are the top 10 genres that I would recommend:
+  
+  1. Adventure,Drama,Sport
+  2. Biography,Documentary,History
+  3. Sci-Fi
+  4. Documentary,Drama,Sport
+  5. Adventure,Drama,Sci-Fi
+  6. Comedy,Mystery
+  7. Action,Adventure,Sci-Fi
+  8. Adventure,Fantasy
+  9. Family
+  10. Animation,Comedy,Family
+  
+
+
+![df1](https://user-images.githubusercontent.com/5207341/153091440-85410056-e5f0-43a6-8e61-f347a523d268.png)
+
+
+
+
+    One important note about this list is it gives a combination of genres instead of one. That is how the original data was provided, thus the result is recommending a mix of genres for a new movie. 
+    
+    Also, for the highest profit, the company should consider the top names to work with for a new movie. Some of them are directors, some of them are writers and some of them are actors. Here are the top 10 people that brought in the highest profit:
+    
+    1. Michael Crichton
+    2. Joe Robert Cole
+    3. Rafe Spall
+    4. Idina Menzel
+    5. Shane Morris
+    6. Kristen Anderson-Lopez
+    7. Peter Del Vecho
+    8. Peter Block
+    9. Adam Green
+    10. Hans Christian Andersen
+
+
+![df4](https://user-images.githubusercontent.com/5207341/153091579-ba87d1f2-cdd2-425b-84f0-c04a255bba95.png)
+
+
+    In terms of ratings, IMDB and TMBD had different results on the best genres. 
+    
+    Here are the top 10 movie genres by average votes on TMDB:
+    
+    1. Documentary,History
+    2. Mystery,Thriller
+    3. Biography,Drama,Musical
+    4. Adventure,Drama,Sci-Fi
+    5. Crime,Documentary
+    6. Drama,Fantasy,Music
+    7. Adventure,Drama,Western
+    8. Drama,History,Thriller
+    9. Biography,Drama,History
+    10. Action,Adventure,Animation
+    
+    
+    ![df2](https://user-images.githubusercontent.com/5207341/153091655-478c857c-d8a4-4819-b5fa-d2f78a1d568c.png)
+
+
+
+    And, here are the top 10 genres according to IMDB ratings:
+    
+    1. Adventure
+    2. Action,Sport
+    3. Crime,Documentary
+    4. Adventure,Drama,Sci-Fi
+    5. Mystery,Thriller
+    6. Sport
+    7. Adventure,Drama,Mystery
+    8. Comedy,Musical
+    9. Adventure,Drama,Western
+    10. Biography,Drama,Musical
+    
+    
+    ![df2](https://user-images.githubusercontent.com/5207341/153091906-fff9c827-7bf6-4455-b680-5695a93ace77.png)
+
+
+
+    And, here are the top 10 genres according to IMDB ratings:
+    
+    1. Adventure
+    2. Action,Sport
+    3. Crime,Documentary
+    4. Adventure,Drama,Sci-Fi
+    5. Mystery,Thriller
+    6. Sport
+    7. Adventure,Drama,Mystery
+    8. Comedy,Musical
+    9. Adventure,Drama,Western
+    10. Biography,Drama,Musical
+    
+    
+    
+    
+    ![df3](https://user-images.githubusercontent.com/5207341/153091974-7226d6aa-3225-4b88-8ab4-c823a557d0f2.png)
+
+
+
+
+    Again, in terms of ratings, IMDB and TMBD had different results on the best people to work with. 
+    
+    Here are the top 10 people by average votes on TMDB:
+    1. Ben Sollee
+    2. Allison Shearmur
+    3. Neal Kingston
+    4. Georgina Haig
+    5. Miles Heizer
+    6. Sebastien Guy
+    7. Nina Dior
+    8. Ben Evans
+    9. Christian Clark
+    10. J.R. Sawyers
+    
+    ![df5](https://user-images.githubusercontent.com/5207341/153092044-1a0c6177-99a2-4f42-a93a-effb020c11b5.png)
+
+
+      Here are the top 10 people by average votes on IMDB:
+    1. Tara Fitzgerald
+    2. Andrew Swarbrick
+    3. Richard Heap
+    4. Mark Addy
+    5. Scott Nicol
+    6. Lee Boardman
+    7. Mario Roberto
+    8. Mark Thomas
+    9. Laura Perez
+    10. Phil Wood
+    
+    
+    
+    ![df6](https://user-images.githubusercontent.com/5207341/153092086-f2a49144-2c95-4253-9958-37b80d31ed27.png)
+
+
+
+- What are some reasons why your analysis might not fully solve the business problem?
+
+
+    I think there are many other factors to consider, such as the time of the year, the economy or any crisis going on, that are not included in this analysis. Therefore, this primary analysis will give a general idea about where to start, but more analysis should be done for better understanding of the industry.
+    
+    
+- What else could you do in the future to improve this project?
+
+   
+ I can focus on directors, or actors in specific instead of people in general. I can also seperate genre categories and do a more comprehensive analysis.
+    
+    
+
+
+
+### Repository Structure
+
+    
+   dsc-phase1-project-template.ipynb is a Jupyter Notebook containing all analysis and visualizations for the project.
+
+DS_Project_Presentation.pdf contains presentation for the project.
+
+Data folder contains zipped data about movies and provided by Flatiron School for the project. Data comes from IMDB, Rotten Tomatoes, and TMDB and Box Office Monjo.
+
+Images folder contains the visualization created for analysis.
+
+
+
+
+
+
+      ├── README.md                           <- The top-level README for reviewers of this project
+├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── data                                <- Both sourced externally and generated from code
+└── images                              <- Both sourced externally and generated from code
+
+
+
+
+
+
+
+
+
   
