@@ -250,10 +250,10 @@ Images folder contains the visualization created for analysis.
 
 
       ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+      ├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+      ├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+      ├── data                                <- Both sourced externally and generated from code
+      └── images                              <- Both sourced externally and generated from code
 
 
 
