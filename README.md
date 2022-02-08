@@ -15,3 +15,43 @@ The data is provided by Flatiron school and collected from the respective websit
 
 The data is collected from Box Office Mojo, IMDB, Rotten Tomatoes, and TheMovieDB.org. The data has information about movie titles, genres, directors, actors, profits, release year.
 
+
+### Methods
+### Data Preparation
+## Questions to consider:
+- How did you prepare the data ?
+Here are the datasets that I used for analysis:
+
+imdb datasets: imdb_title_basics, imdb_title_crew, imdb_title_principals, imdb_title_ratings, imdb_name_basics
+
+tmdb dataset: tmdb_movies
+
+bom dataset: bom_movie_gross
+
+tn dataset: tn_movie_budgets
+
+- Were there variables you dropped?
+
+I dropped the following columns from the data:
+
+  original_title, primary_title, Unnamed: 0, genre_ids, id, nconst, tconst,
+  original_language, release_date, start_year, birth_year, death_year, 
+  known_for_titles,  'category', 'job', 'characters', 
+  'vote_count', 'runtime_minutes', 'ordering'
+- Were there variables you created?
+ I created a value 'profit', which is simply the worldwide_gross minus production_cost.
+ 
+- How did you address missing values or outliers?
+
+  I dropped rows with missing worldwide_gross or production_cost values.
+- Why are these choices appropriate given the data and the business problem?
+   Dropping the nan values, rather than replacing them is an appropriate choice, since I want to provide accurate information.
+   
+- Why are these choices appropriate given the data and the business problem?
+    Dropping the nan values, rather than replacing them is an appropriate choice, since I want to provide accurate information.
+- Were there variables you dropped?
+
+   I later dropped studio, year, domestic_gross, foreign_gross, worldwide_gross columns, since they are not necessary for further analysis.
+
+ 
+  
