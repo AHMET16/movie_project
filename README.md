@@ -1,7 +1,6 @@
 # best_movie_imdb_tmdb
 
 
-# best_movie_imdb_tmdb
 #### Microsoft Movie Analysis
 ### Author: A KARAOGLAN
 ## Overview
@@ -108,6 +107,7 @@ Questions to consider:
 
 
 
+
     One important note about this list is it gives a combination of genres instead of one. That is how the original data was provided, thus the result is recommending a mix of genres for a new movie. 
     
     Also, for the highest profit, the company should consider the top names to work with for a new movie. Some of them are directors, some of them are writers and some of them are actors. Here are the top 10 people that brought in the highest profit:
@@ -127,6 +127,7 @@ Questions to consider:
 ![df4](png/df4.png)
 
 
+
     In terms of ratings, IMDB and TMBD had different results on the best genres. 
     
     Here are the top 10 movie genres by average votes on TMDB:
@@ -144,6 +145,7 @@ Questions to consider:
     
     
    ![df2](png/df2.png)
+   
 
 
 
@@ -166,9 +168,7 @@ Questions to consider:
     
     
    ![df3](png/df3.png)
-
-
-
+  
 
     Again, in terms of ratings, IMDB and TMBD had different results on the best people to work with. 
     
@@ -185,6 +185,7 @@ Questions to consider:
     10. J.R. Sawyers
     
    ![df5](png/df5.png)
+   
 
 
       Here are the top 10 people by average votes on IMDB:
