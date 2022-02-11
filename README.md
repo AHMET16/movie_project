@@ -140,7 +140,7 @@ Questions to consider:
     10. Action,Adventure,Animation
     
     
-    ![df2](https://user-images.githubusercontent.com/5207341/153091655-478c857c-d8a4-4819-b5fa-d2f78a1d568c.png)
+   ![df2](https://user-images.githubusercontent.com/5207341/153091655-478c857c-d8a4-4819-b5fa-d2f78a1d568c.png)
 
 
 
@@ -158,7 +158,7 @@ Questions to consider:
     10. Biography,Drama,Musical
     
     
-    ![df2](https://user-images.githubusercontent.com/5207341/153091906-fff9c827-7bf6-4455-b680-5695a93ace77.png)
+   ![df2](https://user-images.githubusercontent.com/5207341/153091906-fff9c827-7bf6-4455-b680-5695a93ace77.png)
 
 
 
@@ -178,7 +178,7 @@ Questions to consider:
     
     
     
-    ![df3](https://user-images.githubusercontent.com/5207341/153091974-7226d6aa-3225-4b88-8ab4-c823a557d0f2.png)
+   ![df3](https://user-images.githubusercontent.com/5207341/153091974-7226d6aa-3225-4b88-8ab4-c823a557d0f2.png)
 
 
 
@@ -197,7 +197,7 @@ Questions to consider:
     9. Christian Clark
     10. J.R. Sawyers
     
-    ![df5](https://user-images.githubusercontent.com/5207341/153092044-1a0c6177-99a2-4f42-a93a-effb020c11b5.png)
+   ![df5](https://user-images.githubusercontent.com/5207341/153092044-1a0c6177-99a2-4f42-a93a-effb020c11b5.png)
 
 
       Here are the top 10 people by average votes on IMDB:
@@ -214,7 +214,7 @@ Questions to consider:
     
     
     
-    ![df6](https://user-images.githubusercontent.com/5207341/153092086-f2a49144-2c95-4253-9958-37b80d31ed27.png)
+   ![df6](https://user-images.githubusercontent.com/5207341/153092086-f2a49144-2c95-4253-9958-37b80d31ed27.png)
 
 
 
